@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{background-color: #EAEBEB;}
+main{
+    font-family: Kanit;
+}
+.container{
+    max-width: 1000px;  
+    margin: auto;}
+    
+        
+    .header{
+        display: flex;
+        text-transform: uppercase;
+        background-color:#302F2F ;
+        height: 140px;
+        width: 300px;
+        float: left;
+        align-items: center;
+        
+        
+    }
+
+.icones{
+    display: flex;    
+    background-color:#302F2F ;
+    height: 70px;
+    width: 700px;
+   margin-left:100px;
+    align-items: center;
+   
+}
+.header2{
+    display: flex;
+    text-transform: uppercase;
+    background-color:#302F2F ;
+    height: 70px;
+    width: 700px;
+    float: right;
+    align-items: center;
+    
+    
+}
+.logo{padding: 45px;
+    width: 300px;
+    
+   
+}
+.tel{ 
+    margin-top: 20px;   
+    display: flex;
+    margin-left: -170px;
+
+
+}
+.loc{
+    
+    padding: 30px; 
+    margin-right: 430px;
+    margin-left: 150px; 
+    margin-top: 20px;   
+    display: flex; 
+}
+.av{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;    
+    letter-spacing: 2px;       
+    margin-left: 70px;  
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;  
+    margin-top: -60px;  
+    display: inline-block;
+
+}
+.num{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;    
+    letter-spacing: 2px;     
+    margin-left: 85px;
+    display: inline-block; 
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none; 
+    margin-top: -48px; 
+} 
+
+.menu{
+    display: flex;    
+    background-color:#D83B3B ;
+    height: 80px;
+    width: 1000px;    
+    margin: auto;   
+    align-items: center;
+}
+.listmenu{
+    list-style: none;
+    display: flex;
+    letter-spacing: 3px;
+    padding: 30px;    
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px; 
+    margin-left:75px ;    
+
+}
+li{padding: 50px;
+    margin-top: 25px;
+    
+    
+    
+   
+    
+}
+ section{
+        width: 1000px;
+        max-width: 1000px;  
+        margin: auto;       
+        height: 100px;
+        
+    }
+
+.ret{
+    display: flex;
+    text-transform: uppercase;
+    background-color:#302F2F ;
+    height: 80px;
+    width: 800px;    
+    margin: auto;   
+    align-items: center;
+    border-top: solid 5px #D83B3B;
+}
+h2{
+    margin:auto;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family: Poppins;
+    color: white;
+
+}
+.divisao1{
+    
+    max-width: 1000px;
+    margin-top: 100px;
+}
+.ret2{
+    display: flex;
+    text-transform: uppercase;
+    background-color:#302F2F ;
+    height: 50px;
+    width: 1000px;    
+    margin: auto;   
+    align-items: center;
+    border-radius: 5px;
+    border-right: solid 4px #302F2F;
+}
+.ret3{
+    display: flex;
+    text-transform: uppercase;
+    background-color:#D4d2d2 ;
+    height: 200px;
+    width: 1000px;    
+    margin: auto;   
+    align-items: center;
+    border-radius: 5px;
+    border-right: solid 4px #D83B3B;
+}
+.gol2019{
+    
+    padding:30px;
+    
+}
+.textCar{
+    display: inline-block;    
+    padding: 10px;
+    
+
+}
+.ret4{
+    display: flex;
+    text-transform: uppercase;
+    background-color:#D4d2d2 ;
+    height: 200px;
+    width: 1000px;    
+    margin: auto;   
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-right: solid 4px #D83B3B;
+
+}   
+.gol2020{
+    
+    padding:30px;
+    
+}
+.textCar1{
+    display: inline-block;
+    padding: 10px;
+    
+
+}
+.ret5{
+    display: flex;
+    text-transform: uppercase;
+    background-color:#D4d2d2 ;
+    height: 200px;
+    width: 1000px;    
+    margin: auto;   
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-right: solid 4px #D83B3B;
+    
+
+} 
+.gol2021{
+    
+    padding:30px;
+    
+}
+.textCar2{
+    display: inline-block;
+    padding: 10px;
+    
+
+} 
+
+
+
+
+    
+
+

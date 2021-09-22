@@ -13,16 +13,46 @@ body{
 .topo{font-family: Poppins;
    width: 100%;       
     background-color:#302F2F;
-    height: 10rem;
+    height: 12rem;
+    border-bottom: #D83B3B solid .5rem;
+    
+    
 
     
 }
-.content {
-   max-width: 100%;    
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+footer{width: 100%;
+  position: fixed;
+  bottom: 0;  
+  background-color:#D83B3B;
+  height: 5rem;
+  color: white;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: bold;
+  letter-spacing: .3;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 2rem 3rem;
+  text-align: center;
+  
+   
+  
+    
+    
+   
 }
+
+
+.num{
+  list-style: none;
+  font-size: 2rem;  
+  margin: auto;
+
+
+ 
+}
+
 nav {
     width: 100%;
     height: 12.5rem;
@@ -39,34 +69,15 @@ nav {
     
    
 }
-
-.infomenu{    
-    font-size: 3.5rem;  
-    margin: auto;  
-    display: flex;
-    list-style: none;
-    font-weight: bold;
-    color: white;
-    text-align: center;    
-    justify-content: space-between;
-
-}
  
 
-.menu{margin: auto;
-    display: flex;    
-    background-color:#D83B3B;
-    height: 8rem;
-    width: 100%;       
-    align-items: center;
-    
-}
+
 .listmenu{ margin: auto;    
     list-style: none;
     display: flex;
     letter-spacing: .3rem;  
     font-family: Poppins;
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: white;   
     
@@ -83,7 +94,7 @@ li{padding-left: 5rem;
 .ret{
     display: flex;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 10rem;
     text-transform: uppercase;
     background-color:#302F2F ;
     height: 7rem;
@@ -104,6 +115,7 @@ h2{
     width: 80%;
      margin: auto;                     
     font-family: Kanit, sans-serif;
+    flex: 1;
  }
   .catalogcars {      
     
@@ -181,24 +193,8 @@ h2{
 
   @media (max-width: 700px) {
         
-  .listmenu{
-              
-      padding: 0;
-      align-items: center;
-      letter-spacing: 0;
-      text-align: center;
-      font-size: 1.2rem;
-      
-      
-  }
-  li{padding: 2rem;
-    margin-top: 0;   
-    
-}
-.infomenu{
-    font-size: 2rem;
-    
-}
+  
+
 .ret{
         
     text-transform: uppercase;
@@ -254,7 +250,10 @@ h2{
       width: 112%;
       font-size: 1rem;
   }
- 
   
-  }
   
+  
+   
+  
+  
+}

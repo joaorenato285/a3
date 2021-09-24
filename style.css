@@ -8,15 +8,17 @@ body{
     background-color: #EAEBEB;
     max-width: 100%;
     font-size: 1.6rem;
+    font-family: Kanit;
 }    
 
 .topo{font-family: Poppins;
    width: 100%;       
     background-color:#302F2F;
-    height: 12rem;
+    height: 10rem;
     border-bottom: #D83B3B solid .5rem;
-    
-    
+    align-items: center;
+    margin: 0;
+    display: flex;
 
     
 }
@@ -26,14 +28,14 @@ footer{width: 100%;
   background-color:#D83B3B;
   height: 5rem;
   color: white;
-  align-items: center;
+  align-items: center; 
   font-family: Poppins;
   font-weight: bold;
   letter-spacing: .3;
   display: flex;
   align-items: center;
   margin: auto;
-  padding: 2rem 3rem;
+  padding: 1.5rem 2.5rem;
   text-align: center;
   
    
@@ -45,53 +47,51 @@ footer{width: 100%;
 
 
 .num{
-  list-style: none;
-  font-size: 2rem;  
+  list-style: none; 
   margin: auto;
+  font-size: 2rem;
 
 
  
 }
 
-nav {
-    width: 100%;
-    height: 12.5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+
   }
 
 .logo{padding: 1rem;
-    width: 15%;    
+    width: 15rem;    
     margin: auto;    
     display: flex;
+    float: left;
     
    
 }
  
 
 
-.listmenu{ margin: auto;    
+.listmenu{ 
+  margin: auto;    
+  float: right;
     list-style: none;
     display: flex;
-    letter-spacing: .3rem;  
+    letter-spacing: .2rem;  
     font-family: Poppins;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
-    color: white;   
-    
-   
+    color: white; 
+    padding: 2rem 1rem;
+ 
+  
 
 }
-li{padding-left: 5rem;      
-   
-    
+li{
+  margin-left:3rem;
+text-align: center;
+ 
+  
 }
- 
- 
 
-.ret{
+ .ret{
     display: flex;
     margin: auto;
     margin-top: 10rem;
@@ -101,9 +101,10 @@ li{padding-left: 5rem;
     width: 65%;           
     align-items: center;
     border-top: solid .5rem #D83B3B;
+ 
 }
 h2{
-    font-size: 3rem;
+    font-size: 4rem;
      letter-spacing: .5rem;
       font-family: Poppins;
       color: white; 
@@ -128,7 +129,7 @@ h2{
   }
   section .card-item {
    
-    height: 30rem;
+    height: 35rem;
     background: #E2e3e3;
     border-radius: .8rem;
     display: flex;
@@ -145,7 +146,7 @@ h2{
   }
   
   .card-item img {
-    width: 80%;
+    width: 60%;
   }
   .card-item h3 {
     font-size: 3rem;
@@ -184,16 +185,30 @@ h2{
     background: #302F2F;
     color: #D83B3B;
   }
-
+ 
+  
 
 
 
 
     
 
-  @media (max-width: 700px) {
-        
-  
+  @media (max-width: 600px) {
+     .topo{flex-direction: column;
+      padding: 1rem;
+     }   
+
+    .logo{float: none;
+      width: 10rem;  
+      position: absolute; 
+      align-items: center;
+   
+     
+     
+  }
+  .listmenu{
+    margin-top: 3rem;
+  }
 
 .ret{
         
@@ -250,8 +265,19 @@ h2{
       width: 112%;
       font-size: 1rem;
   }
+  footer{width: 375px;   
+    height: 4rem;  
+    letter-spacing: .1;
+    display: flex;
+   
+    padding: 1rem 1rem;
   
-  
+
+  }
+  .num{
+    font-size: 1rem;
+  }
+
   
    
   

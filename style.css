@@ -14,11 +14,12 @@ body{
 .topo{font-family: Poppins;
    width: 100%;       
     background-color:#302F2F;
-    height: 10rem;
+    height: 12rem;
     border-bottom: #D83B3B solid .5rem;
     align-items: center;
     margin: 0;
     display: flex;
+    box-sizing: border-box;
 
     
 }
@@ -56,13 +57,15 @@ footer{width: 100%;
 }
 
 
-  }
+  
 
-.logo{padding: 1rem;
-    width: 15rem;    
+.logo{padding: 2rem;
+    width: 10rem;    
     margin: auto;    
     display: flex;
     float: left;
+    cursor: pointer;
+   
     
    
 }
@@ -76,14 +79,20 @@ footer{width: 100%;
     display: flex;
     letter-spacing: .2rem;  
     font-family: Poppins;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bold;
     color: white; 
     padding: 2rem 1rem;
+    cursor: pointer;
  
   
 
 }
+li:hover {
+  transition: 0.3s;
+  color: #D83B3B;
+}
+
 li{
   margin-left:3rem;
 text-align: center;
@@ -101,6 +110,7 @@ text-align: center;
     width: 65%;           
     align-items: center;
     border-top: solid .5rem #D83B3B;
+    border-radius: 5px 20px 0px 20px;
  
 }
 h2{
@@ -193,7 +203,7 @@ h2{
 
     
 
-  @media (max-width: 600px) {
+  @media (max-width: 780px) {
      .topo{flex-direction: column;
       padding: 1rem;
      }   
@@ -208,6 +218,7 @@ h2{
   }
   .listmenu{
     margin-top: 3rem;
+    padding: 3rem 0rem;
   }
 
 .ret{
